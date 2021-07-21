@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>스마트 장보기</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="register-form">
+		<a href="index.html" id="login">로그인</a>
+		<h2>계정 만들기</h2>	
+		<form action="index.html">
+		  <input type="text" name="email" class="id-field" placeholder="아이디"><br>
+	      <input type="button" value="중복확인" onclick="alert('중복입니다.')" class="btn">
+	      <input type="password" name="password" class="text-field2" placeholder="비밀번호"><br>
+	      <select class="combobox">
+		      <option value="질문" selected>비밀번호 찾기용 질문</option>
+		      <option value="1">좋아하는 동물은?</option>
+		      <option value="2">좋아하는 음식은?</option>
+		  </select>
+		  <input type="text" name="answer" class="ans-field" placeholder="답"><br>
+	      <input type="text" name="name" class="text-field2" placeholder="이름"><br>
+	      <input type="text" name="birth" class="text-field2" placeholder="생년월일(ex: 19500101)"><br>
+	      <input type="text" name="phoeNum" class="text-field2" placeholder="휴대폰 번호(ex: 010-1234-5678)"><br>
+	      <input type="text" name="nickname" class="id-field" placeholder="닉네임"><br>
+	      <input type="button" value="중복확인" onclick="alert('중복입니다.')" class="btn">
+	      <input type="submit" value="완료" class="submit-btn2">
+	    </form>		
+	</div>
+</body>
+</html>
