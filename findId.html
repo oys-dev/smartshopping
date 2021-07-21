@@ -6,9 +6,21 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="findId-form">
+	<div class="findId-form" style="padding-bottom: 30px;">
 		<a href="index.html" id="login">로그인</a>
-		<h2>아이디/비밀번호 찾기</h2>
+		<h2>아이디 찾기</h2>
+		<form>
+			<input type="text" name="name" class="text-field2" placeholder="이름"><br>
+			<input type="text" name="phoeNum" class="text-field2" placeholder="휴대폰 번호(ex: 010-1234-5678)"><br>
+			<input type="button" value="확인" onclick="alert('귀하의 ID는 ctg1770 입니다.')" class="btn">
+		</form>
+		<h2>비밀번호 찾기</h2>
+		<form>
+			<input type="text" name="email" class="id-field2" placeholder="아이디"><br>
+			<input type="text" name="name" class="text-field2" placeholder="이름"><br>
+			<input type="text" name="phoeNum" class="text-field2" placeholder="휴대폰 번호(ex: 010-1234-5678)"><br>
+			<input type="button" value="확인" onClick="location.href='findPassword.html'" class="btn">
+		</form>
 	</div>
 	
 </body>

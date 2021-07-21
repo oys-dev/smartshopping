@@ -209,7 +209,7 @@ h2 {
 	margin-bottom: 10px;
 	margin-top: 4px;
 	border-radius: 5px;
-	border-style: none;
+	/*border-style: none;*/
 }
 
 select {
@@ -230,6 +230,18 @@ select {
   border-style: none;
   padding: 10px;
   margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 260px;
+  color: #9B9B9B;
+  font-weight: bold;
+  background-color: #424242;
+}
+
+.id-field2 {
+  font-size: 12px;
+  border-style: none;
+  padding: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
   width: 260px;
